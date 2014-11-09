@@ -6,7 +6,7 @@ using System.Data;
 using dotnetCHARTING;
 using System.Drawing;
 
-namespace Maticsoft.Common
+namespace Common
 {
     public delegate string SetXColumnHandler(string ora_Str);
     public class ChartHelper

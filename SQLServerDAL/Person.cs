@@ -4,7 +4,7 @@ using System.Text;
 using System.Data.SqlClient;
 using Maticsoft.IDAL;
 using Maticsoft.DBUtility;//Please add references
-namespace Maticsoft.SQLServerDAL
+namespace SQLServerDAL
 {
 	/// <summary>
 	/// 数据访问类:Person

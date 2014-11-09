@@ -2,9 +2,9 @@
 using System.Text;
 using System.Data;
 using System.Data.OracleClient;
-using Maticsoft.IDAL;
-using Maticsoft.DBUtility;
-namespace Maticsoft.OracleDAL
+using IDAL;
+using DBUtility;
+namespace OracleDAL
 {
 	/// <summary>
 	/// 用参数方式实现数据层示例。

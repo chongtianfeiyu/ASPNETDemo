@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Data;
-namespace Maticsoft.IDAL
+namespace IDAL
 {
 	/// <summary>
 	/// 接口层Person
@@ -11,11 +11,11 @@ namespace Maticsoft.IDAL
 		/// <summary>
 		/// 增加一条数据
 		/// </summary>
-		bool Add(Maticsoft.Model.Person model);
+		bool Add(Model.Person model);
 		/// <summary>
 		/// 更新一条数据
 		/// </summary>
-		bool Update(Maticsoft.Model.Person model);
+		bool Update(Model.Person model);
 		/// <summary>
 		/// 删除一条数据
 		/// </summary>
@@ -23,8 +23,8 @@ namespace Maticsoft.IDAL
 		/// <summary>
 		/// 得到一个对象实体
 		/// </summary>
-		Maticsoft.Model.Person GetModel();
-		Maticsoft.Model.Person DataRowToModel(DataRow row);
+		Model.Person GetModel();
+		Model.Person DataRowToModel(DataRow row);
 		/// <summary>
 		/// 获得数据列表
 		/// </summary>

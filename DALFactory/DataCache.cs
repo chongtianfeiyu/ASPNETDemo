@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Web;
-namespace Maticsoft.DALFactory
+namespace DALFactory
 {
 	/// <summary>
 	/// 缓存操作类

@@ -1,6 +1,6 @@
 ﻿using System.Data;
-using Maticsoft.Model;
-namespace Maticsoft.IDAL
+using Model;
+namespace IDAL
 {
 	/// <summary>
 	/// 接口层-系统管理。

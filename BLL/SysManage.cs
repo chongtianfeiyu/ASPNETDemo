@@ -1,7 +1,7 @@
 ﻿using System.Data;
-using Maticsoft.IDAL;
-using Maticsoft.Model;
-namespace Maticsoft.BLL
+using IDAL;
+using Model;
+namespace BLL
 {
 	/// <summary>
 	/// SysManage 的摘要说明。

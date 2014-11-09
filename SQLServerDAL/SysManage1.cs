@@ -2,9 +2,9 @@
 using System.Text;
 using System.Data;
 using System.Data.SqlClient;
-using Maticsoft.IDAL;
-using Maticsoft.DBUtility;
-namespace Maticsoft.SQLServerDAL
+using IDAL;
+using DBUtility;
+namespace SQLServerDAL
 {
 	/// <summary>
 	/// 用参数方式实现数据层示例。
@@ -23,7 +23,7 @@ namespace Maticsoft.SQLServerDAL
 			return DbHelperSQL.GetMaxID("NodeID", "S_Tree");           
 		}
         
-        public int AddTreeNode(Maticsoft.Model.SysNode model)
+        public int AddTreeNode(Model.SysNode model)
 		{
 			model.NodeID=GetMaxId();
 
@@ -59,7 +59,7 @@ namespace Maticsoft.SQLServerDAL
 		}
 
 
-        public void UpdateNode(Maticsoft.Model.SysNode model)
+        public void UpdateNode(Model.SysNode model)
 		{
 			StringBuilder strSql=new StringBuilder();
 			strSql.Append("update S_Tree set ");
@@ -131,7 +131,7 @@ namespace Maticsoft.SQLServerDAL
 		/// </summary>
 		/// <param name="NodeID"></param>
 		/// <returns></returns>
-        public Maticsoft.Model.SysNode GetNode(int NodeID)
+        public Model.SysNode GetNode(int NodeID)
 		{
 			StringBuilder strSql=new StringBuilder();
 			strSql.Append("select * from S_Tree ");	
@@ -142,7 +142,7 @@ namespace Maticsoft.SQLServerDAL
 										};
 			parameters[0].Value = NodeID;
 
-            Maticsoft.Model.SysNode node = new Maticsoft.Model.SysNode();
+            Model.SysNode node = new Model.SysNode();
 			DataSet ds=DbHelperSQL.Query(strSql.ToString(),parameters);
 			if(ds.Tables[0].Rows.Count>0)
 			{

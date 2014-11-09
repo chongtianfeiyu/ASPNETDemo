@@ -5,7 +5,7 @@ using System.Data;
 using System.Data.OleDb;
 using System.Configuration;
 
-namespace Maticsoft.DBUtility
+namespace DBUtility
 {
     /// <summary>
     /// 数据访问基础类(基于OleDb) Copyright (C) Maticsoft

@@ -11,7 +11,7 @@ using System.Web.UI.WebControls;
 using System.Web.UI.HtmlControls;
 using System.Reflection;
 using System.Text;
-namespace Maticsoft.Common
+namespace Common
 {
 	/// <summary>
 	/// 页面层(表示层)基类,所有页面继承该页面

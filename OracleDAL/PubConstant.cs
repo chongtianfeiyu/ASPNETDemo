@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Configuration;
-namespace Maticsoft.OracleDAL
+namespace OracleDAL
 {
 
     public class PubConstant

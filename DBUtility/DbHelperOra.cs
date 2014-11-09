@@ -5,7 +5,7 @@ using System.Data;
 using System.Data.OracleClient;
 using System.Configuration;
 
-namespace Maticsoft.DBUtility
+namespace DBUtility
 {
 	/// <summary>
     /// 数据访问基础类(基于Oracle) Copyright (C) Maticsoft

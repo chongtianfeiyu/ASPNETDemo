@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 using System.Configuration;
-namespace Maticsoft.DALFactory
+namespace DALFactory
 {
 	/// <summary>
     /// Abstract Factory pattern to create the DAL。
@@ -81,12 +81,12 @@ namespace Maticsoft.DALFactory
 		/// <summary>
 		/// 创建Person数据层接口。
 		/// </summary>
-		public static Maticsoft.IDAL.IPerson CreatePerson()
+		public static IDAL.IPerson CreatePerson()
 		{
 
 			string ClassNamespace = AssemblyPath +".Person";
 			object objType=CreateObject(AssemblyPath,ClassNamespace);
-			return (Maticsoft.IDAL.IPerson)objType;
+			return (IDAL.IPerson)objType;
 		}
 
 }

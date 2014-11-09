@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Configuration;
-namespace Maticsoft.DBUtility
+namespace DBUtility
 {
     
     public class PubConstant

@@ -2,7 +2,7 @@
 using System.Data;
 using Maticsoft.IDAL;
 using Maticsoft.DBUtility;
-namespace Maticsoft.SQLServerDAL
+namespace SQLServerDAL
 {
 	/// <summary>
 	/// 系统菜单管理类。(普通SQL实现方式)
