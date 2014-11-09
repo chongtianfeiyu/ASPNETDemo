@@ -1,9 +1,10 @@
-namespace Test
+namespace DAL
 {
     using System;
     using System.Data.Entity;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
+    using Model;
 
     public partial class AdventureWorksDB : DbContext
     {
