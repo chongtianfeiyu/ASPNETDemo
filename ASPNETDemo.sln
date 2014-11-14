@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31010.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.22310.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{A3D138E7-1C54-4E65-9AFB-3C9443D71F1A}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{B018ED5A-D671-4991-A4C5-812FDC4B24B1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModel", "ViewModel\ViewModel.csproj", "{2503220B-165E-4F6B-B410-67DE31E8B315}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cache", "Cache\Cache.csproj", "{7FD3439C-B694-4803-A993-2813FBD3313F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{2503220B-165E-4F6B-B410-67DE31E8B315}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2503220B-165E-4F6B-B410-67DE31E8B315}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2503220B-165E-4F6B-B410-67DE31E8B315}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FD3439C-B694-4803-A993-2813FBD3313F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FD3439C-B694-4803-A993-2813FBD3313F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FD3439C-B694-4803-A993-2813FBD3313F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FD3439C-B694-4803-A993-2813FBD3313F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
